@@ -3,6 +3,7 @@ package com.careerdevs;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        System.out.println(Challenge.getFirstValue(new int[]{1, 2, 3, 4}));
     }
 }
