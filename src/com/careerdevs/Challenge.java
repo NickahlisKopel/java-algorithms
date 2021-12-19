@@ -22,4 +22,8 @@ public class Challenge{
     public static int convert(int minutes) {
         return minutes * 60;
     }
+    public static String giveMeSomething(String a) {
+        String part1 = "something";
+        return part1 + " " + a;
+    }
 }

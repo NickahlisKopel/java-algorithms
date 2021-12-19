@@ -12,5 +12,7 @@ public class Main {
         System.out.println(Challenge.search(new int[]{1, 2, 3, 4}, 3));
         //https://edabit.com/challenge/2t8JDxF7wLrg7yJ5E
         System.out.println(Challenge.convert(5));
+        //https://edabit.com/challenge/ZuoKAgmH8G2vHtLzi
+        System.out.println(Challenge.giveMeSomething("something"));
     }
 }
