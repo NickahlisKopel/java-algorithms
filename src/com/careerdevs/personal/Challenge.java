@@ -19,4 +19,13 @@ public class Challenge {
     public static boolean isSameNum(int x, int y) {
         return x == y;
     }
+    public static int nextEdge(int side1, int side2) {
+        return (side1 + side2) - 1;
+    }
+    public static int convert(int minutes) {
+        return minutes * 60;
+    }
+    public static int power(int voltage, int current) {
+        return voltage * current;
+    }
 }
