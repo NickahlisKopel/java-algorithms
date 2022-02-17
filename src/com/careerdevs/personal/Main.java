@@ -9,5 +9,6 @@ public class Main {
         System.out.println(Challenge.nextEdge(7,5));
         System.out.println(Challenge.convert(5));
         System.out.println(Challenge.power(110,3));
+        System.out.println(Challenge.inatorInator("bee"));
     }
 }

@@ -28,4 +28,11 @@ public class Challenge {
     public static int power(int voltage, int current) {
         return voltage * current;
     }
+    public static String inatorInator(String inv) {
+        if(inv.endsWith("a") ||inv.endsWith("e")||inv.endsWith("i")||inv.endsWith("o")||inv.endsWith("u")||inv.endsWith("A") ||inv.endsWith("E")||inv.endsWith("I")||inv.endsWith("O")||inv.endsWith("U")){
+            return inv+"-inator "+Integer.toString(inv.length()) +"000";
+        }else{
+            return inv+"inator "+Integer.toString(inv.length())+"000";
+        }
+    }
 }
