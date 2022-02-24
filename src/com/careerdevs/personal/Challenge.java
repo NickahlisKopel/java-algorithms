@@ -1,4 +1,5 @@
 package com.careerdevs.personal;
+import java.util.ArrayList;
 
 public class Challenge {
     public static boolean isSeven(int x) {
@@ -35,4 +36,30 @@ public class Challenge {
             return inv+"inator "+Integer.toString(inv.length())+"000";
         }
     }
-}
+        public static ArrayList<Integer> indexOfCaps(String s) {
+            ArrayList<Integer>index = new ArrayList<Integer>();
+            for(int i = 0; i < s.length();i++){
+                if(Character.isUpperCase(s.charAt(i))){
+                    index.add(i);
+                }
+            }
+            return index;
+        }
+        public static String removeVowels(String s) {
+            s = s.replaceAll("[aeiouAEIOU]", "");
+            return s;
+
+
+
+        }
+    public static int charCount(char c, String str) {
+        int count = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == c) {
+                count++;
+            }
+        }
+        return count;
+    }
+    }
+

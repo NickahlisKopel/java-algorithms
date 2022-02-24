@@ -10,5 +10,9 @@ public class Main {
         System.out.println(Challenge.convert(5));
         System.out.println(Challenge.power(110,3));
         System.out.println(Challenge.inatorInator("bee"));
+        System.out.println(Challenge.indexOfCaps("Fedex"));
+        System.out.println(Challenge.removeVowels("help"));
+        System.out.println(Vowels.getCount("String"));
+        System.out.println(Challenge.charCount('c',"chair"));
     }
 }
