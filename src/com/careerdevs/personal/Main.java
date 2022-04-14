@@ -1,7 +1,9 @@
 package com.careerdevs.personal;
 
 import com.careerdevs.personal.challenge040422.Program;
-import com.careerdevs.personal.challenge041122.Challenge;
+import com.careerdevs.personal.challenge041422.Challenge;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,10 +28,11 @@ public class Main {
         //https://edabit.com/challenge/Wci9YChXWRj6JBeFP
 //        System.out.println(Program.discount(10,50));
         //https://edabit.com/challenge/zr7BBJbeYikNBN2hf
-          System.out.println(Challenge.societyName(new String[]{"Adam", "Sarah", "Malcolm"}));
+//          System.out.println(Challenge.societyName(new String[]{"Adam", "Sarah", "Malcolm"}));
         //https://edabit.com/challenge/uYS6jZBk5sQ6qQyrK
 //        System.out.println(Challenge.WeeklySalary(new int[]{8, 8, 8, 8, 8, 8, 0}));
 //        System.out.println(Challenge.WeeklySalary(new int[]{8, 8, 8, 8, 8, 0, 0}));
-        //
+        //https://edabit.com/challenge/7Tb7qMDQHtz3xpydd
+        System.out.println(Arrays.deepToString(Challenge.squarePatch(3)));
     }
 }
