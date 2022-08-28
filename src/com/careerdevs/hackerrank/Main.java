@@ -10,5 +10,9 @@ public class Main {
         //Solution.javaStdinAndStdoutTwo();
         //Solution.javaOutputFormatting();
         //Solution.javaLoops();
+        //Solution.evenOdd();
+        //Solution.dictionary();
+        //Solution.intToString();
+        //Solution.sumOrderCap();
     }
 }
