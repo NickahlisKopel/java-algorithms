@@ -216,8 +216,90 @@ public class Solution {
 
     }
 
+    public static void subString() {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner scanner = new Scanner(System.in);
+        String word = scanner.nextLine();
+        int start = scanner.nextInt();
+        int end = scanner.nextInt();
+        System.out.println(word.substring(start,end));
+    }
 
 
+    public static String getSmallestAndLargest(String s, int k) {
+        String smallest = "";
+        String largest = "";
+
+        // Complete the function
+        // 'smallest' must be the lexicographically smallest substring of length 'k'
+        // 'largest' must be the lexicographically largest substring of length 'k'
+        for(int i = 0; i < s.length();i++){
+            if((i+k) > s.length()){
+                break;
+            }
+            String sub = s.substring(i + (i+k));
+
+            if(smallest.compareTo(sub) >= 0){
+                smallest = sub;
+            }else if(largest.compareTo(sub) <=0){
+                largest = sub;
+            }
+        }
+
+
+        return smallest + "\n" + largest;
+    }
+
+
+    public static int simpleArraySum(List<Integer> ar) {
+        // Write your code here
+        int sum = 0;
+        for(int i = 0; i < ar.size();i++){
+            sum+= ar.get(i);
+        }
+        return sum;
+
+    }
+
+
+
+    public static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
+        ArrayList<Integer> sum = new ArrayList<Integer>();
+        int aSum = 0;
+        int bSum = 0;
+        for(int i = 0; i < a.size();i++){
+            if(a.get(i) > b.get(i)){
+                aSum++;
+            }else if(a.get(i) < b.get(i)){
+                bSum++;
+            }
+        }
+        String string = "ssdd";
+        string.split(string);
+
+        sum.add(aSum);
+        sum.add(bSum);
+        return sum;
+
+    }
+
+
+
+    public static void regex(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String s = scan.nextLine();
+        // Write your code here.
+        scan.close();
+        s = s.trim();
+        if (s.length() == 0) {
+            System.out.println(0);
+        } else {
+            String[] strings = s.split("['!?,._@ ]+");
+            System.out.println(strings.length);
+            for (String str : strings)
+                System.out.println(str);
+        }
+    }
 
 
 

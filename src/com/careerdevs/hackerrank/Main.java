@@ -14,5 +14,6 @@ public class Main {
         //Solution.dictionary();
         //Solution.intToString();
         //Solution.sumOrderCap();
+        Solution.subString();
     }
 }
